@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WhatsApp Support</title>
+
+  <!-- Meta Pixel Code - अपना Pixel ID नीचे डालें -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #075e54, #128c7e, #25d366);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      background: #ffffff;
+      border-radius: 25px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    }
+
+    .whatsapp-icon {
+      width: 90px;
+      height: 90px;
+      background: #25d366;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      color: white;
+    }
+
+    h1 {
+      color: #075e54;
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .features {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+
+    .feature {
+      background: #f5f7f6;
+      margin: 10px 0;
+      padding: 13px 15px;
+      border-radius: 12px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .whatsapp-btn {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+      background: #25d366;
+      color: white;
+      padding: 18px;
+      border-radius: 14px;
+      font-size: 19px;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 8px 20px rgba(37,211,102,0.35);
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+      transform: translateY(-2px);
+    }
+
+    .note {
+      margin-top: 18px;
+      color: #888;
+      font-size: 13px;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="whatsapp-icon">
+      ☎
+    </div>
+
+    <h1>WhatsApp Support</h1>
+
+    <p class="subtitle">
+      किसी भी जानकारी या सहायता के लिए अभी हमसे WhatsApp पर संपर्क करें।
+    </p>
+
+    <div class="features">
+      <div class="feature">✓ Fast Response</div>
+      <div class="feature">✓ Easy WhatsApp Support</div>
+      <div class="feature">✓ Direct संपर्क करें</div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.link/jzeud9"
+       class="whatsapp-btn"
+       target="_blank"
+       onclick="fbq('track', 'Contact');">
+
+       💬 Chat on WhatsApp
+
+    </a>
+
+    <p class="note">
+      Button पर क्लिक करके सीधे WhatsApp पर संपर्क करें।
+    </p>
+
+    <div class="footer">
+      © 2026 All Rights Reserved
+    </div>
+
+  </div>
+
+</body>
+</html>
